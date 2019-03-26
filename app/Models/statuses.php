@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Flags extends Model {
-    protected $table = 'flags';
+class Statuses extends Model {
+    protected $table = 'statuses';
     protected $primaryKey = 'id';
 }

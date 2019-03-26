@@ -1,16 +1,10 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+namespace App\Models;
 
-/**
- * Description of dwarves
- *
- * @author keith
- */
-class dwarves {
-    //put your code here
+use CodeIgniter\Model;
+
+class Dwarves extends Model {
+    protected $table = 'dwarves';
+    protected $primaryKey = 'id';
 }
